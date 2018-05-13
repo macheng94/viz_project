@@ -1,6 +1,6 @@
 # Title:
 ### Distribution of trees in NYC by zip code
---- Visualization Project CUSP
+--- 2018 Visualization Project CUSP
 
 # Team members
 
@@ -20,19 +20,23 @@ What you can do in our visualization:
 
 - 3.Know the numbers of trees within each zip code area.
 
+#### a brief overview of our website
+
+
+![Alt text](screenshot1.png)
+
+![Alt text](screenshot2.png)
+
+
 # Datasets involves
 
 NYC Trees Distribution.      Link: https://data.cityofnewyork.us/api/views/uvpi-gqnh/rows.csv?accessType=DOWNLOAD
 
 NYC Zipcode Shapefile.       Link: https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u
 
-# Descriptions on your visualization design choices. For example, why you're choosing the types of visualization, representations, and/or interactions in your project.
+# Objective of the project
 
 The type of our visualization is Choropleth Geospatial Map & Distributing points
-
-
-Representations:
-
 
 Interactions:
 
@@ -42,7 +46,7 @@ There is more trees in dark green area than in light green area.
 - Users can make a selection on map as a circle with mobilable center and fragile edge, you can see the trees within the circle.
 
 
-# Outcome and Evaluation: how did the visualization helps your users to achieve the objectives.
+# Outcome and Evaluation
 
 With our visualization, users can realize the distribution of every kind of trees in NYC by zip code. 
 If you want to view the cherries in spring, you could easily know which zipcode area is most abundant with cherries.
@@ -51,12 +55,12 @@ And you can know the trees information around your address, just move the circle
 # Visualization Tools Used
 This data visualization uses D3.js, flask, altair, carto api, python.
 
-# Where is the map, See it live
-macheng1994.pythonanywhere.com
+# Link to the visualization 
+check our website [here](http://macheng1994.pythonanywhere.com) ! 
 
 # Possible future work
 - add ability to show details of trees maintanance, years and healthy condition.
-- add a chart bar to 
+- give more detailed trees instruction.
 - combine with other demographic data.
 
 
